@@ -47,7 +47,7 @@ def checkout(cart, coupons)
   
 end
 
-
+checkout
 # apply_clearance([
 #   {:item => "PEANUT BUTTER", :price => 3.00, :clearance => true,  :count => 2},
 #   {:item => "KALE", :price => 3.00, :clearance => false, :count => 3},
