@@ -43,15 +43,16 @@ end
  
 
 def checkout(cart, coupons)
-  consoli
+  consolidated_cart = consolidate_cart(cart)
   
 end
 
- apply_clearance([
-  {:item => "PEANUT BUTTER", :price => 3.00, :clearance => true,  :count => 2},
-  {:item => "KALE", :price => 3.00, :clearance => false, :count => 3},
-  {:item => "SOY MILK", :price => 4.50, :clearance => true,  :count => 1}
-  ])
+
+# apply_clearance([
+#   {:item => "PEANUT BUTTER", :price => 3.00, :clearance => true,  :count => 2},
+#   {:item => "KALE", :price => 3.00, :clearance => false, :count => 3},
+#   {:item => "SOY MILK", :price => 4.50, :clearance => true,  :count => 1}
+#   ])
 
 
 
