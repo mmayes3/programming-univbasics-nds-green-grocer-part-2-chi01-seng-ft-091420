@@ -43,7 +43,7 @@ end
  
 
 def checkout(cart, coupons)
-  
+  consoli
   
 end
 
